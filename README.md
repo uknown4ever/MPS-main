@@ -22,7 +22,7 @@ A web-based schedule management system built with Flask, MySQL, and PyMySQL. Thi
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone git clone https://github.com/uknown4ever/MPS-main.git
 cd schedule-management
 ```
 
@@ -37,16 +37,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Create a `.env` file in the project root with the following content:
-```
-DB_HOST=localhost
-DB_USER=your_mysql_username
-DB_PASSWORD=your_mysql_password
-DB_NAME=schedule_management
-SECRET_KEY=your_secret_key
-```
-
-5. Create the database and tables:
+4. Create the database and tables:
 ```bash
 mysql -u your_mysql_username -p < schema.sql
 ```
