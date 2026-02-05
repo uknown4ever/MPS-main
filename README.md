@@ -26,18 +26,12 @@ git clone git clone https://github.com/uknown4ever/MPS-main.git
 cd schedule-management
 ```
 
-2. Create a virtual environment and activate it:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install the required packages:
+2. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Create the database and tables:
+3. Create the database and tables:
 ```bash
 mysql -u your_mysql_username -p < schema.sql
 ```
